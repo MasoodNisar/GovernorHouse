@@ -11,6 +11,7 @@ body {
     color: #333;
 }
 
+
 /* Header background across the top */
 .header-background {
     width: 100%;
@@ -58,7 +59,9 @@ body {
 .left-column {
     margin-top: 92px;
     width: 40%;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background: linear-gradient(90deg, #e6e6e6, #ffffff);
+    box-shadow: 5px 0px 12px -8px rgba(0, 0, 0, 0.5);
     text-align: left;
 }
 
@@ -132,6 +135,7 @@ li {
 .skills ul {
     list-style-type: disc;
     margin-left: 1.5rem;
+    color: #555;
 }
 
 .interests p {
